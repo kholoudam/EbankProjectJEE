@@ -2,7 +2,7 @@
 
 ### ebank6.png - Requête SQL vide
 
-![Requête vide](pics/ebank6.png)
+![Requête vide](photos/ebank6.png)
 
 Description : Interface H2 Database avec une requête qui ne retourne aucun résultat  
 - Connexion à la base H2 en mémoire: `jdbc:h2:mem:bank`  
@@ -13,7 +13,7 @@ Description : Interface H2 Database avec une requête qui ne retourne aucun rés
 
 ### ebank7.png - Requête SQL avec résultats
 
-![Requête avec résultats](pics/ebank7.png)
+![Requête avec résultats](photos/ebank7.png)
 
 Description : Requête SQL affichant 3 clients  
 - Même base H2 que ebank6  
@@ -24,7 +24,7 @@ Description : Requête SQL affichant 3 clients
 
 ### ebank8.png - Opérations bancaires
 
-![Opérations bancaires](pics/ebank8.png)
+![Opérations bancaires](photos/ebank8.png)
 
 Description : Table `ACCOUNT_OPERATION` avec 18 opérations  
 - Montants, dates, types (CREDIT/DEBIT), comptes UUID  
@@ -34,7 +34,7 @@ Description : Table `ACCOUNT_OPERATION` avec 18 opérations
 
 ### ebank1.png - Création d'un client
 
-![Création client](pics/ebank1.png)
+![Création client](photos/ebank1.png)
 
 Description : Requête POST pour créer un client via l'API REST  
 - Endpoint: `http://localhost:8085/customers`  
@@ -46,7 +46,7 @@ Description : Requête POST pour créer un client via l'API REST
 
 ### ebank2.png - Liste des clients (format incorrect)
 
-![Liste incorrecte](pics/ebank2.png)
+![Liste incorrecte](photos/ebank2.png)
 
 Description : GET `/customers` retourne un JSON malformé  
 - Problème de syntaxe (accolades/virgules)  
@@ -56,7 +56,7 @@ Description : GET `/customers` retourne un JSON malformé
 
 ### ebank3.png - Liste des clients (navigateur)
 
-![Liste navigateur](pics/ebank3.png)
+![Liste navigateur](photos/ebank3.png)
 
 Description : Affichage HTML de `/customers`  
 - 8 clients listés avec leurs ID, nom, email  
@@ -66,7 +66,7 @@ Description : Affichage HTML de `/customers`
 
 ### ebank4.png - Création d’un autre client
 
-![Autre création](pics/ebank4.png)
+![Autre création](photos/ebank4.png)
 
 Description : POST `/customers` avec  
 - name="malak", email="malak@gamil.com"  
@@ -77,7 +77,7 @@ Description : POST `/customers` avec
 
 ### ebank5.png - Suite de la liste des clients
 
-![Suite liste](pics/ebank5.png)
+![Suite liste](photos/ebank5.png)
 
 Description : Clients affichés de id=8 à id=15  
 - Confirme que "ibrahim" et "malak" ont été créés
@@ -88,7 +88,7 @@ Description : Clients affichés de id=8 à id=15
 
 ### ebank10.png - Interface de recherche clients
 
-![Recherche clients](pics/ebank10.png)
+![Recherche clients](photos/ebank10.png)
 
 Description :  
 - Barre de recherche  
@@ -99,7 +99,7 @@ Description :
 
 ### ebank11.png - Liste des clients (frontend)
 
-![Liste Angular](pics/ebank11.png)
+![Liste Angular](photos/ebank11.png)
 
 Description : Interface Angular `localhost:4200`  
 - Clients de ID 7 à 19  
@@ -110,7 +110,7 @@ Description : Interface Angular `localhost:4200`
 
 ### ebank12.png - Recherche de client
 
-![Recherche "image"](pics/ebank12.png)
+![Recherche "image"](photos/ebank12.png)
 
 Description :  
 - Recherche du mot-clé "image"  
@@ -120,7 +120,7 @@ Description :
 
 ### ebank13.png - Création de client réussie
 
-![Client sauvegardé](pics/ebank13.png)
+![Client sauvegardé](photos/ebank13.png)
 
 Description :  
 - Message : "Customer has been successfully saved!"  
@@ -131,7 +131,7 @@ Description :
 
 ### ebank14.png - Liste des derniers clients
 
-![Derniers clients](pics/ebank14.png)
+![Derniers clients](photos/ebank14.png)
 
 Description :  
 - Clients : 18 (Imane), 19 (Mohamed), 21 (lala)  
@@ -141,7 +141,7 @@ Description :
 
 ### ebank15.png - Détails d'un compte bancaire
 
-![Détails compte](pics/ebank15.png)
+![Détails compte](photos/ebank15.png)
 
 Description :  
 - Compte ID : `1c68c33d-7a76-4519-9d7c-f8cb72fc56d4`  
