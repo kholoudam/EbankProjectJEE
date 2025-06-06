@@ -1,6 +1,6 @@
 # Le Back
 
-### ebank6.png - Requête SQL vide
+### Requête SQL vide
 
 ![Requête vide](photos/ebank6.png)
 
@@ -11,7 +11,7 @@ Description : Interface H2 Database avec une requête qui ne retourne aucun rés
 
 ---
 
-### ebank7.png - Requête SQL avec résultats
+### Requête SQL avec résultats
 
 ![Requête avec résultats](photos/ebank7.png)
 
@@ -22,7 +22,7 @@ Description : Requête SQL affichant 3 clients
 
 ---
 
-### ebank8.png - Opérations bancaires
+### Opérations bancaires
 
 ![Opérations bancaires](photos/ebank8.png)
 
@@ -32,7 +32,7 @@ Description : Table `ACCOUNT_OPERATION` avec 18 opérations
 
 ---
 
-### ebank1.png - Création d'un client
+### Création d'un client
 
 ![Création client](photos/ebank1.png)
 
@@ -44,7 +44,7 @@ Description : Requête POST pour créer un client via l'API REST
 
 ---
 
-### ebank2.png - Liste des clients (format incorrect)
+### Liste des clients (format incorrect)
 
 ![Liste incorrecte](photos/ebank2.png)
 
@@ -54,7 +54,7 @@ Description : GET `/customers` retourne un JSON malformé
 
 ---
 
-### ebank3.png - Liste des clients (navigateur)
+### Liste des clients (navigateur)
 
 ![Liste navigateur](photos/ebank3.png)
 
@@ -64,7 +64,7 @@ Description : Affichage HTML de `/customers`
 
 ---
 
-### ebank4.png - Création d’un autre client
+### Création d’un autre client
 
 ![Autre création](photos/ebank4.png)
 
@@ -75,7 +75,7 @@ Description : POST `/customers` avec
 
 ---
 
-### ebank5.png - Suite de la liste des clients
+### Suite de la liste des clients
 
 ![Suite liste](photos/ebank5.png)
 
@@ -86,7 +86,7 @@ Description : Clients affichés de id=8 à id=15
 
 # Le Front
 
-### ebank10.png - Interface de recherche clients
+### Interface de recherche clients
 
 ![Recherche clients](photos/ebank10.png)
 
@@ -97,7 +97,7 @@ Description :
 
 ---
 
-### ebank11.png - Liste des clients (frontend)
+### Liste des clients (frontend)
 
 ![Liste Angular](photos/ebank11.png)
 
@@ -108,7 +108,7 @@ Description : Interface Angular `localhost:4200`
 
 ---
 
-### ebank12.png - Recherche de client
+### Recherche de client
 
 ![Recherche "image"](photos/ebank12.png)
 
@@ -118,7 +118,7 @@ Description :
 
 ---
 
-### ebank13.png - Création de client réussie
+### Création de client réussie
 
 ![Client sauvegardé](photos/ebank13.png)
 
@@ -129,7 +129,7 @@ Description :
 
 ---
 
-### ebank14.png - Liste des derniers clients
+### Liste des derniers clients
 
 ![Derniers clients](photos/ebank14.png)
 
@@ -139,7 +139,7 @@ Description :
 
 ---
 
-### ebank15.png - Détails d'un compte bancaire
+### Détails d'un compte bancaire
 
 ![Détails compte](photos/ebank15.png)
 
